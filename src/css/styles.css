@@ -23,3 +23,11 @@ body {
     height: 90vh;
     overflow-x: auto;
 }
+
+.kanban-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 100%;
+    overflow-y: auto;
+}
