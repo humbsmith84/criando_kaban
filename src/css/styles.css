@@ -71,3 +71,14 @@ body {
 .kanban-column[data-id="6"]::after {
     background-color: #e04035;
 }
+
+.kaban-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kaban-title h2 {
+    font-size: 18px;
+    color: #4b5563;
+    font-weight: 600;
+}
