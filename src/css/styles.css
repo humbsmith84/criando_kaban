@@ -45,3 +45,7 @@ body {
     top: 0;
     left: 0;
 }
+
+.kanban-column[data-id="1"]::after {
+    position: absolute;
+}
