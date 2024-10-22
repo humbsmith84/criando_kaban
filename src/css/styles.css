@@ -47,5 +47,25 @@ body {
 }
 
 .kanban-column[data-id="1"]::after {
-    position: absolute;
+    background-color: #d573b6;
+}
+
+.kanban-column[data-id="2"]::after {
+    background-color: #fea065;
+}
+
+.kanban-column[data-id="3"]::after {
+    background-color: #fed565;
+}
+
+.kanban-column[data-id="4"]::after {
+    background-color: #92a5fb;
+}
+
+.kanban-column[data-id="5"]::after {
+    background-color: #6ed0bc;
+}
+
+.kanban-column[data-id="6"]::after {
+    background-color: #e04035;
 }
