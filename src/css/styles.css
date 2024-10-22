@@ -159,6 +159,7 @@ body {
 
 .cards-hover {
     background-color: #eaeffa;
+    border-radius: 8px;
 }
 
 *::-webkit-scrollbar {

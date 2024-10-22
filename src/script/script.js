@@ -14,4 +14,10 @@ document.querySelectorAll('.kanban-cards').forEach(column => {
         e.currentTarget.classList.add('cards-hover');
    
     })
+
+    column.addEventListener('dragleave', e => {
+        e.currentTarget.classList.remove('cards-hover');
+   
+    })
+
 })
