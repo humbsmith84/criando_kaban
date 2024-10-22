@@ -24,7 +24,7 @@ document.querySelectorAll('.kanban-cards').forEach(column => {
         e.currentTarget.classList.remove('cards-hover');
 
         const dragCard = document.querySelector('.kanban-card.dragging');
-        e.currentTarget.appenChield(dragCard);
+        e.currentTarget.appendChild(dragCard);
 
     })
 
