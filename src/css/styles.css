@@ -72,12 +72,12 @@ body {
     background-color: #e04035;
 }
 
-.kaban-title {
+.kanban-title {
     display: flex;
     justify-content: space-between;
 }
 
-.kaban-title h2 {
+.kanban-title h2 {
     font-size: 18px;
     color: #4b5563;
     font-weight: 600;
@@ -91,7 +91,7 @@ body {
     border: none;
 }
 
-.kaban-cards {
+.kanban-cards {
     display: flex;
     flex-direction: column;
     gap: 8px;
