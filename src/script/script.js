@@ -20,4 +20,12 @@ document.querySelectorAll('.kanban-cards').forEach(column => {
    
     })
 
+    column.addEventListener('drop', e => {
+        e.currentTarget.classList.remove('cards-hover');
+
+        const dragCard = document.querySelector('.kaban-card.dragging');
+        e.currentTarget.appenChield(dragCard);
+
+    })
+
 })
